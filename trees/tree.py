@@ -76,14 +76,14 @@ class Node(object):
 # Sum
     def sum(self, root):
         if not root:
-            return None
+            return 0
         else:
             return self.value + self.sum(root.left) + self.sum(root.right)
 
 # Count Nodes
     def count_nodes(self, root):
         if not root:
-            return None
+            return 0
         else:
             return 1 + self.count_nodes(root.left) + self.count_nodes(root.right)
 
@@ -143,5 +143,12 @@ print("Is Balanced:")
 print(root.is_balanced(root))
 print("Diameter:")
 print(root.diameter(root))
+print("Sum:")
+print(root.sum(root))
+print("Count of Nodes:")
+print(root.count_nodes(root))
+print("Average:")
+print(root.average(root))
+
 # print("BFS: ")
 # print(root.bfs(root,3))
