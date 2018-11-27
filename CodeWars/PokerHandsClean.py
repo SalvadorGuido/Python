@@ -1,6 +1,6 @@
 hands = {'High Card'        :1,
          'Pair'             :2,
-         'Two Pairs'         :3,
+         'Two Pairs'        :3,
          'Three of a Kind'  :4,
          'Straight'         :5,
          'Flush'            :6,

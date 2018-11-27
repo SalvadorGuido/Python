@@ -1,6 +1,8 @@
 import random
 
+
 class Node:
+
     def __init__(self, value = None):
         self.value = value
         self.parent = None
